@@ -2004,9 +2004,11 @@ section {
 
 #footer .social-links a:hover {
   background: #fd5c28;
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 td {
   text-align: center;
 }
+tr:nth-child(even) {
+  background-color: #A9A9A9;
