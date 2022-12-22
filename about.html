@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -38,23 +40,9 @@
 
 <body>
 
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:solsticizng@gmail.com">solsticizng@gmail.com</a></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a href="https://www.facebook.com/profile.php?id=100088576773337" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.youtube.com/@solstalks" class="Youtube"><i class="bi bi-youtube"></i></a>
-      </div>
-    </div>
-  </section>
-
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex justify-content-between">
-
       <div class="logo">
         <h1 class="text-light"><a href="index.html">Solstice</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -63,10 +51,15 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">About</a></li>
-          <li><a href="testimonials.html">Team</a></li>
-          <li><a href="blog.html">Plans</a></li>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="services.html">About Us</a></li>
+          <li class="dropdown"><a href="#"><span>Our Events</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Our Content</a></li>
+              <li><a href="about.html">Promotional Materials</a></li>
+            </ul>
+          </li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -95,35 +88,47 @@
     <!-- ======= About Us Section ======= -->
     <section id="about-us" class="about-us">
       <div class="container">
-
         <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
+            data-aos="fade-right"></div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-up">What do you do?</h3>
+              <h3 data-aos="fade-up">What are your goals?</h3>
               <p data-aos="fade-up">
-                Our team focuses on many aspects of our subject; in this section, you can see our content focus, our objectives, what we do, and a summary of the content itself.
+                Our team focuses on many aspects of our subject; in this section, you can see our content focus, our
+                objectives, what we do, and a summary of the content itself.
               </p>
               <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="bx bx-bell"></i>
-                  <h4>Focus of Content</h4>
-                  <p>Our Team chose to Focus about The Dilemmas of a Teenager.</p>
+                  <i class="bi bi-chat-heart-fill"></i>
+                  <h4>Educational</h4>
+                  <p>Although our dangerous topic includes such violence, we would like for our podcast to be
+                    educational in order to
+                    help them out during difficult times on their own.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-clipboard"></i>
-                  <h4>Objective</h4>
-                  <p>Our Team hopes to educate and learn more information about the Dilemmas of a Teenager while also explainaing the effects of these Dilemma on what it can do to a Teenager and why is this problem important. </p>
+                  <i class="bi bi-fire"></i>
+                  <h4>Entertaining</h4>
+                  <p>One of our main goals throughout the podcast is to keep the viewers interested and entertained so
+                    that they will
+                    listen in. We'd do stunts, jokes, and other things to keep them entertained while they learned about
+                    our topic.
+                  </p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-images"></i>
-                  <h4>Streaming Platform</h4>
-                  <p>Our Team chose to stream on Youtube to gain many people as possible and for easy access as a lot of people are known to use Youtube itself.</p>
+                  <i class="bi bi-modem-fill"></i>
+                  <h4>Instructive</h4>
+                  <p>These instructions are one of our main points in the stream, assisting teenagers in particular who
+                    are in need by teaching them about things and assisting them in avoiding danger.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-folder"></i>
-                  <h4>What is The Dilemmas of a Teenager define?</h4>
-                  <p>The Dilemmas of a Teenager define about the different modern problems that the Teenagers face today. This covers several types of problem such as anxiety, depression, teenage pregnancy etc. You may also see soon how these problems affect a Teenagers life.</p>
+                  <i class="bi bi-pin-map"></i>
+                  <h4>Informative</h4>
+                  <p>TWith all of these factors combined, an informative stream would help many people learn more about
+                    this issue and spread the word so that other people their age or similar would not suffer harm or
+                    anything of the sort.</p>
+
+
                 </div>
               </div>
             </div><!-- End .content-->
@@ -138,9 +143,98 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
+          <h2><strong>Outline</strong> of Stream</h2>
+
+          <p>As you can see in the table below, this is our schedule to follow during our stream to avoid any
+            misorganized area during the stream.</p>
+
+          <table>
+            <tr>
+              <th>Topic</th>
+              <th>Activity</th>
+              <th>Time Allotment (mins)</th>
+              <th>Screen</th>
+              <th>Audio</th>
+            </tr>
+            <tr>
+              <td>Introduction</td>
+              <td>Introduction of the group</td>
+              <td>3 minutes</td>
+              <td>Video</td>
+              <td>Video/Audio</td>
+            </tr>
+            <tr>
+              <td>Content of our Stream</td>
+              <td>Introduction of the Topic and brief overall of our content</td>
+              <td>10 minutes</td>
+              <td>Facecam</td>
+              <td>Video/Audio</td>
+            </tr>
+            <tr>
+              <td>Roots of Dilemma of Teenagers</td>
+              <td>Discussion of the Roots and Problems of Teenagers</td>
+              <td>5 minutes</td>
+              <td>Facecam</td>
+              <td>Video/Audio</td>
+            </tr>
+            <tr>
+              <td>Effects of Dilemmas of Teenagers</td>
+              <td>Disucssion about the effects while also explaining how this affects Teenagers</td>
+              <td>10 minutes</td>
+              <td>Facecam</td>
+              <td>Video/Audio</td>
+            </tr>
+            <tr>
+              <td>Types of Dilemmas of a Teenager</td>
+              <td>Discussion about the different types of Dilemmas of a Teenager</td>
+              <td>5 minutes</td>
+              <td>Facecam</td>
+              <td>Video/Audio</td>
+            </tr>
+            <tr>
+              <td>Commercial Break</td>
+              <td>Playing of Music</td>
+              <td>5 minutes</td>
+              <td>Picture</td>
+              <td>Music Audio</td>
+            </tr>
+            <tr>
+              <td>Real life and Online Experiences based on their Problems and Experiences</td>
+              <td>Discussion and sharing of how these problems affect them Real Life and Online and their difference
+              </td>
+              <td>12 minutes</td>
+              <td>Facecam</td>
+              <td>Video/Audio</td>
+              </td>
+            <tr>
+              <td>Summary</td>
+              <td>Summarization of Important Details</td>
+              <td>10 minutes</td>
+              <td>Facecam</td>
+              <td>Video/Audio</td>
+              </td>
+            <tr>
+              <td>Q&A</td>
+              <td>Q&A Portion</td>
+              <td>10 minutes</td>
+              <td>Facecam</td>
+              <td>Video/Audio</td>
+              </td>
+            <tr>
+              <td>Outroduction</td>
+              <td>Giving thanks to the viewers and Outro</td>
+              <td>2 minutes</td>
+              <td>Picture</td>
+              <td>Video/Audio</td>
+
+          </table>
+          <br>
           <h2>Our <strong>Gratitude</strong></h2>
-          <p>Our team believes that the information and other materials on this website has improved your understanding of our topic, which is the "Dilemmas of a Teenager." Thank you for your continued support; we appreciate it.</p>
+          <p>Our team believes that the information and other materials on this website has improved your understanding
+            of our topic, which is the "Dilemmas of a Teenager." Thank you for your continued support; we appreciate it.
+          </p>
         </div>
+      </div>
 
     </section><!-- End Our Clients Section -->
 
@@ -159,7 +253,8 @@
               H4Q5+684, Brgy Sto. Domigo<br>
               Ortigas Ave Ext, Cainta Rizal<br>
               Philiippines <br><br>
-              <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:solsticizng@gmail.com">solsticizng@gmail.com</a></i>
+              <i class="bi bi-envelope d-flex align-items-center"><a
+                  href="mailto:solsticizng@gmail.com">solsticizng@gmail.com</a></i>
             </p>
           </div>
 
@@ -179,10 +274,19 @@
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/ -->
         </div>
+        
+        <div class="container d-md-flex py-4">
+
+          <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            <a href="https://www.facebook.com/profile.php?id=100088576773337" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.youtube.com/@solstalks" class="Youtube"><i class="bx bxl-youtube"></i></a>
+            <a href="https://github.com/Solsticiez" class="linkedin"><i class="bi bi-github"></i></a>
+          </div>
       </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>

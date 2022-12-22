@@ -553,7 +553,7 @@ section {
 }
 
 .section-bg {
-  background-color: #B68D40;
+  background-color: #F5F5F5;
 }
 
 .section-title {
@@ -566,7 +566,7 @@ section {
   font-weight: 300;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #B68D40;
+  color: #010101;
 }
 
 .section-title h2 strong {
@@ -991,7 +991,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #2b2320;
+  color: #000000;
   margin: 0 10px;
   display: inline-flex;
   align-items: center;
@@ -999,7 +999,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #f03c02;
+  color: #B68D40;
 }
 
 .team .member .social i {
@@ -1015,21 +1015,21 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #2b2320;
+  color: #807658;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #b4aca8;
+  color: #000000;
 }
 
 .team .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #847872;
+  color: #122620;
 }
 
 .team .member:hover .social {
